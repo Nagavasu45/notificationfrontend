@@ -1,0 +1,139 @@
+.main-container{
+    padding-top: 15px;
+}
+.company-container{
+    margin-top:15px;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-bottom:15px;
+    /* border: 2px solid grey; */
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: nowrap;
+    position: relative;
+    background-image: linear-gradient(to left,white, rgb(172, 172, 250));
+}
+.company-exp{
+    position: absolute;
+    border: 1px solid rgb(126, 126, 126);
+    border-radius: 8px;
+    border:1px dashed black;
+    font-weight: 600;
+    
+}
+.company-container:hover{
+    border-color: blue;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.company-logo{
+    margin: auto;
+    padding-left: 5px;
+}
+.company-description{
+    margin: auto;
+    /* padding: 20px; */
+    
+}
+.company-skills{
+    /* width:400px; */
+    margin: auto;
+    padding: 20px;
+}
+.jobrolestyle{
+    color:rgb(216, 139, 139);
+}
+.imgsty{
+    height:100px;
+    width:100px;
+    border-radius: 50px;
+}
+.imgsty:hover{
+    border:2px dashed green;
+}
+.button1{
+    border: 2px solid orangered;
+    font-size: 18px;
+    border-radius: 10px;
+}
+.button1:hover{
+    background-color: blue;
+    color:white
+}
+
+.skillsstyle{
+    color:blue;
+    font-size: 20px;
+}
+.bgimg{
+    /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_FuZGtmJhjTyBwBkOgarJG-YW_KNarIsX4g&usqp=CAU");
+    background-repeat: no-repeat;
+    background-size: cover; */
+    width:100%;
+    height: 100%;
+}
+.job_details-heading{
+    color:cadetblue
+    /* color:white; */
+}
+.job_details-heading:hover{
+    background-color: beige;
+    color:black;
+}
+.styl1{
+    text-align: left;
+    margin-left: 2rem;
+   color:rgb(240, 183, 98);
+
+    
+}
+.styl2{
+    color:black;
+    margin-left: 2rem;
+    text-align: left;
+    margin-right: 10rem;
+    padding: 20px;
+    border: 1px solid grey;
+    border-radius: 20px;
+    font-weight: 600;
+    background-color: aliceblue;
+}
+.styl2:hover{
+    border: 1px dashed grey;
+}
+.styl4{
+    color:blueviolet;
+    margin-left: 2rem;
+    text-align: left;
+    margin-right: 10rem;
+    padding: 20px;
+    border: 1px solid grey;
+    border-radius: 20px;
+    font-weight: 600;
+    background-color: aliceblue;
+}
+.styl4:hover{
+    border: 2px dashed grey;
+}
+.styl3{
+    color:rgb(41, 40, 40);
+    margin-left: 2rem;
+    text-align: left;
+    margin-right: 10rem;
+    padding: 20px;
+    font-size: 25px;
+    border: 2px dashed grey;
+    border-radius: 20px;
+    margin-bottom: 50px;
+    background-color: aliceblue;
+}
+.styl5{
+    display: flex;
+    justify-content:left;
+    flex-wrap: nowrap;
+}
+.backgroundstyle{
+    background-color: rgb(231, 231, 231);
+    margin: 15px;
+    border-radius: 20px;
+    padding-bottom: 50px;
+}
